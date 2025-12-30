@@ -1,0 +1,20 @@
+Package: ceapBR
+Type: Package
+Title: Accessing Parliamentary Expense Quota Data in Brazil
+Version: 0.1.0
+Authors@R: c( 
+   person("Denisson", "Silva", email = "denissoncsol@gmail.com", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0003-2771-8146")),
+   person("Dalson", "Figueiredo", email = "dalson.figueiredofo@ufpe.br", role = c("aut"), 
+           comment = c(ORCID = "0000-0001-6982-2262")))
+Maintainer: Denisson Silva <denissoncsol@gmail.com>     
+Description: The ceapBR package provides tools to retrieve and clean data from the Quota for the Exercise of Parliamentary Activity (CEAP) in Brazil. 
+  It currently supports data collection from the Chamber of Deputies and the Federal Senate.
+License: GPL-3
+Encoding: UTF-8
+BugReports: https://github.com/silvadenisson/ceapBR/issues
+Imports: 
+    data.table,
+    curl
+LazyData: true
+RoxygenNote: 7.3.3
